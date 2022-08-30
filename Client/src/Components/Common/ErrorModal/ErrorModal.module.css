@@ -1,0 +1,78 @@
+
+.modalContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.body {
+    width: 70%;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.464);
+    box-shadow: 0 0 5px white;
+    backdrop-filter:blur(8px);
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleWrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.buttonWrapper{
+    width: 90%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonNo {
+    min-width: 80px;
+    font-size: 16px;
+    min-height: 50px;
+    background-color: rgb(102, 0, 0);
+    border:none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 7px;
+ 
+}
+.buttonYes{
+    font-size: 16px;
+    min-width: 80px;
+    min-height: 50px;
+    background-color: rgb(14, 102, 0);
+    border:none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 7px;
+
+}
+
+
+
+
+
+

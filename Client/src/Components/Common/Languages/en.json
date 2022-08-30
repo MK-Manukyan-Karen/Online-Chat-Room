@@ -1,0 +1,17 @@
+
+{
+    "chatroom": "Chat Room",
+    "roomName" : "Room name",
+    "userName" : "User name",
+    "textChooseProfileIcon" : "Choose profile photo",
+    "joinButtonName" : "Join",
+
+    "roomErrorMessage" : "Room name is required",
+    "minLengthRoomErrorMessage" : "Minimum number of characters` 1",
+    "maxLengthRoomErrorMessage" : "Maximum number of characters` 20",
+
+    "userNameErrorMessage" : "Your name is required",
+    "minLengthUserNameErrorMessage" : "Minimum number of characters` 2",
+    "maxLengthUserNameErrorMessage" :  "Maximum number of characters` 11"
+    
+}

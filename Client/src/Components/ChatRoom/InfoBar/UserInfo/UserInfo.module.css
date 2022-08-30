@@ -1,0 +1,59 @@
+.itemWrapper{
+    width: 58px;
+    min-height: 48px;
+    background: rgba(0, 0, 0, 0.464);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px); 
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    scroll-snap-align: end;
+}
+
+
+.itemIconBody {
+    width: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.userName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    margin-left: 10px;
+}
+
+.meName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(180, 255, 169);
+    margin-left: 10px;
+}
+
+.itemIconWrapper {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+
+ }
+ .itemIcon{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ } 
+ 
+ 
+ .onlineLight {
+     width: 4px;
+     height: 4px;
+     background: #92ff39;;
+ }

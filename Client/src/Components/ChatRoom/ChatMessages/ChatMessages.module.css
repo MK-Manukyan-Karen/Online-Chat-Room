@@ -1,0 +1,82 @@
+.messagesContainer {
+    width: 80%;
+    height: 66vh;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top:17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.messagesWrapper{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 80%;
+    height: 100%;
+}
+
+.welcomeWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.iconBody{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+
+}
+.robot{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.titleBody{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.welcomeText{
+  color: rgba(255, 255, 255, 0.538);
+  font-size: 20px;
+}
+
+.welcomeText span{
+  color: aqua;
+  font-size: 22px;
+}
+
+.title{
+  color: rgba(255, 255, 255, 0.538);
+  font-size: 18px;
+}
+
+
+.messagesContainer::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+    height: 0;
+  }
+  
+  .messagesContainer::-webkit-scrollbar-thumb {
+    background:transparent
+  }
+  
+  .messagesContainer::-webkit-scrollbar-track {
+    background: transparent;
+  }
+

@@ -1,0 +1,16 @@
+{
+  "chatroom": "Զրուցարան",
+  "roomName" : "Սենյակի անունը",
+  "userName" : "Ձեր անունը",
+  "textChooseProfileIcon" : "Ընտրել պրոֆիլի լուսանկարը",
+  "joinButtonName" : "Միանալ",
+
+  "roomErrorMessage" : "Սենյակի անունը պարտադիր է",
+  "minLengthRoomErrorMessage" : "Նվազագույն քանակը` 1 նիշ",
+  "maxLengthRoomErrorMessage" : "Առավելագույն քանակը` 20 նիշ",
+
+  "userNameErrorMessage" : "Ձեր անունը պարտադիր է",
+  "minLengthUserNameErrorMessage" : "Նվազագույն քանակը 2 նիշ",
+  "maxLengthUserNameErrorMessage" :  "Առավելագույն քանակը` 11 նիշ"
+
+}
