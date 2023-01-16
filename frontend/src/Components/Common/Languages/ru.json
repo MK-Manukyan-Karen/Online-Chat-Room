@@ -1,0 +1,15 @@
+{
+    "chatroom": "Чат Комната",
+    "roomName" : "Название комнаты",
+    "userName" : "Ваше имя",
+    "textChooseProfileIcon" : "Выбрать фото профиля" ,
+    "joinButtonName" : "Присоединиться",
+
+    "roomErrorMessage" : "Название комнаты обязательно",
+    "minLengthRoomErrorMessage" : "Минимальное количество символов` 1",
+    "maxLengthRoomErrorMessage" : "Максимальное количество символов` 20",
+
+    "userNameErrorMessage" : "Ваше имени обязательно",
+    "maxLengthUserNameErrorMessage" : "Максимальное количество символов` 11",
+    "minLengthUserNameErrorMessage" : "Минимальное количество символов` 2"
+}

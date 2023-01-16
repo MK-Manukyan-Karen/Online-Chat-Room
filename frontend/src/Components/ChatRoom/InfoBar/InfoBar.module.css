@@ -1,0 +1,83 @@
+.infoBarContainer{
+  height: 62vh;
+  position: absolute;
+  left: 0;
+  top: 21vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.infoWrapper{
+    position: relative;
+    width: 70px;
+    height:100%;
+    background: rgba(0, 0, 0, 0.464);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+    border-right: 2px solid rgba(255, 255, 255, 0.25);
+    border-bottom-right-radius: 20px;
+    z-index: 10;
+    padding: 5px 0px;
+    backdrop-filter:blur(8px);
+}
+
+.burger {
+    width: 70px;
+    height: 40px;
+    position:absolute;
+    top:-40px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-top: 2px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+    border-right: 2px solid rgba(255, 255, 255, 0.25);
+    border-top-right-radius: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+
+.itemsContainer{
+  
+    display: flex;
+    width: 100%;
+    height:100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+
+}
+
+
+.burger svg{
+    color: white;
+    font-size: 30px;
+}
+
+
+.itemsContainer::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+    height: 0;
+  }
+  
+  .itemsContainer::-webkit-scrollbar-thumb {
+    background:transparent
+  }
+  
+  .itemsContainer::-webkit-scrollbar-track {
+    background: transparent;
+  }
